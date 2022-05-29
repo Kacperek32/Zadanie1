@@ -4,3 +4,7 @@ def palindrom(o):
         if o[i] != o[n-1-i]:
             return False
         return True
+print("Daj słowo")
+word = input() 
+print("Dane słowo" + (" jest" if(palindrom(word)) else " nie jest") + " palindromem")
+
